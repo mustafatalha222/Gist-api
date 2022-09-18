@@ -1,0 +1,11 @@
+@import '../../assets/_variables.scss';
+
+.wrapper{
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: $grey;
+}

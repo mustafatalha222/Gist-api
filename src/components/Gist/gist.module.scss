@@ -1,0 +1,53 @@
+@import '../../assets/_variables.scss';
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    border-bottom: 1px solid $grey;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .dateWrapper{
+            @media screen and (max-width: 800px) {
+                display: none;
+            }
+            display: flex;
+            margin-top: 8px;
+            .date{
+                font-size: 14px;
+                color: $grey;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.seeMoreIcons{
+    display: flex;
+    margin-top: -8px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    width: 100%;
+    .iconWrapper {
+            margin-left: 50px;
+            @media screen and (max-width: 500px) {
+                display: grid;
+                a {
+                    padding: 5px 0;
+                }
+            }
+        }
+}
+
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    margin-right: 10px;
+}

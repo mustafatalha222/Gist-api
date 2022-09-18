@@ -1,0 +1,25 @@
+@import '../../assets/_variables.scss';
+
+.header {
+    background-color: $black;
+    color: $white;
+    z-index: 32;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+
+    .center{
+        display: flex;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        padding: 0 20px;
+        .giticon {
+            font-size: 30px;
+            margin-right: 10px;
+        }
+    }
+    
+}

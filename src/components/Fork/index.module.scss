@@ -1,0 +1,22 @@
+@import '../../assets/_variables.scss';
+
+.wrapper{
+ margin-top: 20px;
+}
+
+.forkList{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    section{
+        div{
+            width: 20px;
+            height: 20px;
+        }
+        a{
+            font-size: 0.8rem;
+            font-weight: 400;
+            padding: 0 7px;
+        }
+    }
+}
